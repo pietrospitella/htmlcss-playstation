@@ -10,19 +10,47 @@
     width: 100%;
 }
 
+.logo_50 {
+    width: 50%;
+}
+
+#explore_section, #sales_section {
+    margin: 100px 0;
+}
+
+#follow_us_section {
+    margin-top: 100px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbo_txt {
+    width: 30%;
+}
+
+/* / jumbotron */
+
 /* HEADER */
 
 header {
     height: 700px;
 }
 
-.blackbarr {
+.black_bar {
     height: 2%;
     width: 100%;
     background-color: black;
 }
 
-.blackbarr img {
+.black_bar img {
     width: 5%;
 }
 
@@ -30,6 +58,7 @@ header {
     width: 25px;
     margin: 8px 0 0 18px;
 }
+
 
 .right_bar_header {
     position: relative;
@@ -40,27 +69,8 @@ header {
     right: 0;
 }
 
-.margin_lt {
-    margin: 0 10px;
-}
-
-/* jumbotron */
-
-.jumbotron {
-    width: 100%;
-    height: 550px;
-    background-image: url(../img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.jumbo_txt {
-    width: 30%;
-}
-
-.jumbo_txt img {
-    width: 50%;
+#returnal {
+  background-image: url(../img/jumbo-bg.png);
 }
 
 /* MAIN  */
@@ -71,10 +81,7 @@ header {
     border-radius: 20px;    
 }
 
-
-.sect_1_title{
-    margin-top: 100px;
-}
+/* ps5 banner  */
 
 .ps5_descript {
     width: 50%;
@@ -82,7 +89,7 @@ header {
 }
 
 .ps5_img img {
-    width: 50vw;
+    width: 40vw;
     margin-right: 50px;
 }
 
@@ -92,4 +99,87 @@ header {
 
 #accessories .col-2 img {
     width: 60%;
+}
+
+/* it takes two banner */
+
+#ittakestwo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* new releases  */
+
+#new_releases {
+    height: 600px;
+}
+
+#releases_gallery .col-2 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* explore  */
+
+#explore .col-4 img {
+    width: 100%;
+}
+
+/* ps plus */
+
+#ps_plus_section {
+    height: 400px;
+    width: 100%;
+    background-color: #BEBCBB;
+}
+
+.ps_plus {
+    height: 400px;
+}
+
+.ps_plus_descript {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.ps_plus_img img {
+    height: 400px;
+}
+
+/* sales */
+
+#sales .col-4 img {
+    width: 100%;
+}
+
+/* ps now  */
+
+#ps_now {
+    height: 400px;
+    width: 100%;
+    background-color: #161C3B;
+}
+
+.ps_now_banner {
+    height: 400px;
+}
+
+.ps_now_descript {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.ps_now_img img {
+    height: 400px;
+}
+
+/* follow us  */
+
+#follow_us {
+    height: 400px;
+    width: 100%;
+
+}
+
+#follow_us .col-2 img {
+    width: 100%;
 }
